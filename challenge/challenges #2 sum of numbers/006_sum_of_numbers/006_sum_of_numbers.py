@@ -14,11 +14,11 @@
 n = int(input("Enter a number"))
 
 # Initialize the sum to 0
-sum = 0
+sum_numbers = 0
 
 # use a for loop to iterate through numbers from 1 to n
 for i in range(1,n+1):
-    sum = sum + i
+    sum_numbers += i
 
 # output the result
 print(f"sum = {sum}")

@@ -18,6 +18,7 @@ if user_input >= 90:
 # If the score is between 80 and 89, print: `"Grade: B"`
 if 80 < user_input < 89:
     print("grade B")
+    
 # If the score is between 70 and 79, print: `"Grade: C"`
 if 70 < user_input < 79:
     print("grade C")
